@@ -14,6 +14,7 @@
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "thirdweb": "^5"
+    "pino-pretty": "^10.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
