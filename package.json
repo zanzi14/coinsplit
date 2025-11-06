@@ -7,15 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postinstall": "npm install pino-pretty"
   },
   "dependencies": {
-    "next": "15.4.6",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "thirdweb": "^5"
+    "@thirdweb-dev/react": "latest",
+    "@thirdweb-dev/sdk": "latest",
+    "next": "15.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "pino-pretty": "^10.3.0"
-  },
+  }
+}
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "19.1.10",
